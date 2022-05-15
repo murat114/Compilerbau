@@ -1,0 +1,11 @@
+proc main(){
+    var c: int;
+    var s: int;
+
+    s := 0;
+
+    do {
+        readc(c);
+        s := s + c;
+    } while (c # 'x');
+}
